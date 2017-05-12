@@ -1,0 +1,34 @@
+{
+  "name": "mosquitto-acl-parser",
+  "version": "1.0.0",
+  "description": "Parse and Stringify Mosquitto ACLs",
+  "main": "index.js",
+  "scripts": {
+    "test": "camo-purge ; xo --space 4 --ignore test.js --ignore example.js && nyc mocha test.js && nyc report --reporter=text-lcov | coveralls --force"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hobbyquaker/mosquitto-acl-parser.git"
+  },
+  "keywords": [
+    "mosquitto",
+    "acl",
+    "parse",
+    "stringify",
+    "mqtt"
+  ],
+  "author": "Sebastian Raff <hq@ccu.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hobbyquaker/mosquitto-acl-parser/issues"
+  },
+  "homepage": "https://github.com/hobbyquaker/mosquitto-acl-parser#readme",
+  "devDependencies": {
+    "camo-purge": "^1.0.2",
+    "coveralls": "^2.13.1",
+    "mocha": "^3.3.0",
+    "nyc": "^10.3.2",
+    "should": "^11.2.1",
+    "xo": "^0.18.2"
+  }
+}
