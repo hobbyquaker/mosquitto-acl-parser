@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/hobbyquaker/mosquitto-acl-parser#readme",
   "devDependencies": {
-    "camo-purge": "^1.0.2",
-    "coveralls": "^2.13.1",
-    "mocha": "^3.3.0",
-    "nyc": "^10.3.2",
-    "should": "^11.2.1",
-    "xo": "^0.18.2"
+    "camo-purge": "latest",
+    "coveralls": "latest",
+    "mocha": "latest",
+    "nyc": "latest",
+    "should": "latest",
+    "xo": "latest"
   }
 }
