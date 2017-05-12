@@ -9,7 +9,8 @@
 
 > Parse and Stringify Mosquitto ACLs
 
-This tiny module parses [Mosquitto]() ACLs into a Javascript object and stringifies objects back into a ACL string.
+This tiny module parses [Mosquitto](https://mosquitto.org/) ACLs into a Javascript object and stringifies objects back 
+into a ACL string.
 
 ## Usage
 
