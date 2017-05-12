@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Parse and Stringify Mosquitto ACLs",
   "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "scripts": {
     "test": "camo-purge ; xo --space 4 --ignore test.js --ignore example.js && nyc mocha test.js && nyc report --reporter=text-lcov | coveralls --force"
   },
